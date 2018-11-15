@@ -1,4 +1,4 @@
-package io.github.alexbogovich.userserver
+package io.github.alexbogovich.userservice
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

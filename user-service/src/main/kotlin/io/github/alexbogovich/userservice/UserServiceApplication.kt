@@ -1,4 +1,4 @@
-package io.github.alexbogovich.userserver
+package io.github.alexbogovich.userservice
 
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 
 @SpringBootApplication
 @EnableEurekaClient
-class UserServerApplication(private val userRepository: UserRepository) : ApplicationRunner {
+class UserServiceApplication(private val userRepository: UserRepository) : ApplicationRunner {
     override fun run(args: ApplicationArguments?) {
         userRepository.deleteAll()
         userRepository.save(User(null, "Peter"))
@@ -19,7 +19,7 @@ class UserServerApplication(private val userRepository: UserRepository) : Applic
 }
 
 fun main(args: Array<String>) {
-    runApplication<UserServerApplication>(*args)
+    runApplication<UserServiceApplication>(*args)
 }
 
 

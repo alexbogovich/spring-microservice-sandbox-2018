@@ -1,4 +1,4 @@
-package io.github.alexbogovich.userserver
+package io.github.alexbogovich.userservice
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
