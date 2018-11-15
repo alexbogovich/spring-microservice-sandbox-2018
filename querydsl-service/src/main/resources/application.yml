@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "querydsl"
+  data:
+    rest:
+      base-path: "/api"
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+server:
+  port: 8084
+
