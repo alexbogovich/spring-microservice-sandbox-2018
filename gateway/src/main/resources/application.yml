@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "gateway"
+zuul.addProxyHeaders: true
+#  main.allow-bean-definition-overriding: true
+#security:
+#  oauth2:
+#    client:
+#      client-id: 0oahitdeukIBwMDHw0h7
+#      client-secret: _XbV93NeGFS1VaKmuJbaH1MVXgioFmxPOOe7v8Fk
+#      access-token-uri: https://dev-595103.oktapreview.com/oauth2/default/v1/token
+#      user-authorization-uri: https://dev-595103.oktapreview.com/oauth2/default/v1/authorize
+#      scope: openid profile email
+#    resource:
+#      user-info-uri: https://dev-595103.oktapreview.com/oauth2/default/v1/userinfo

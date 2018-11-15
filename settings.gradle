@@ -1,0 +1,6 @@
+rootProject.name = 'microservice-sandbox'
+include 'config-server'
+include 'data-server'
+include 'eureka-server'
+include 'gateway'
+include 'user-server'
